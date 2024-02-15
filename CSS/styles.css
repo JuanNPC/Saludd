@@ -1,0 +1,192 @@
+header{
+    background: url("../img/eps3.jpg");
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    padding-top: 20px;
+    left: 120px;
+    
+}
+
+.bg-nav-rumbo{
+    background: transparent !important;
+    animation: infinite;
+}
+
+.bg-nav-rumbo ul li a.nav-link{
+    color: #ffffff;
+    font-size: 24px;
+    border-bottom: 2px solid transparent;
+    border-top: 2px solid transparent;
+    background-color: rgb(86, 179, 255);
+    
+}
+
+.bg-nav-rumbo ul li a.nav-link:hover{
+    border-bottom: 10px solid #fff;
+    border-top: 10px solid #fff;
+}
+#hero{
+    text-align: center;
+    margin-top: 200px;
+
+}
+
+#hero h2{
+    font-size: 100px;
+    color: rgb(39, 146, 218);
+    margin-bottom: 0;
+    top: 20px;
+    font-family:'Times New Roman', Times, serif;
+}
+
+#hero h1{
+    color: #fff;
+    margin-bottom: 100px;
+}
+
+.row {
+    width: 80%;
+    max-width: 1170px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 50px;
+    overflow-x: hidden;
+    padding: 5rem 0;
+
+}
+
+.row .imgg{
+
+    overflow: hidden;
+
+}
+
+.row .imgg img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: 0.3s;
+    margin-left: 10px;
+}
+
+.row .imgg:hover img{
+    transform: scale(1.3);
+}
+
+.row .containerimg{
+    width: 100%;
+    display: flex;
+    justify-content:center ;
+    align-items: center;
+    padding-left: 30px;
+}
+
+.row .containerimg span.textWrapper{
+    display: block;
+    font-size: 20px;
+    text-transform: capitalize;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 15px;
+    margin-bottom: 20px;
+}
+
+.row .containerimg span.textWrapper span{
+    display: inline-block;
+    background: #383f47;
+    width: 70px;
+    height: 5px;
+    font-size: 25px;
+
+}
+
+
+.row .containerimg h2{
+    font-size: 40px;
+    font-weight: 700;
+    color: #383f47;
+    padding-bottom: 20px;
+}
+.row .containerimg p{
+    font-size: 16px;
+    line-height: 25px;
+    padding-bottom: 25px;
+}
+
+
+/* Estilo de la seccion Instalaciones */
+
+.insta-container{
+    display: flex;
+    justify-content: center;
+    flex-wrap:wrap;
+    gap: 25px;
+    margin-top: 100px;
+    
+}
+
+.insta{
+    width: 325px;
+    background-color: #f4f4f4;
+    border-radius: 10px;
+    box-shadow: 0px 2px 4px rgba(0,0,0,0.3);
+    overflow: hidden;
+
+
+}
+
+.insta img{
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+.insta-content{
+    padding: 20px;
+}
+
+.insta-content h1{
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.insta-content p{
+    font-size: 14px;
+    color: #666;
+    margin-bottom: 20px;
+
+}
+
+
+
+
+footer {
+    background-color: #333333;
+    color: #fff;
+    padding: 20px;
+}
+
+.footer-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer-content p {
+    margin-bottom: 10px;
+}
+
+.contact-info {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.contact-info li {
+    margin: 5px;
+}
